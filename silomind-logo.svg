@@ -1,0 +1,67 @@
+<svg width="400" height="400" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243550"/>
+      <stop offset="100%" stop-color="#1A2840"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <rect width="120" height="120" rx="24" fill="#0B1120"/>
+
+  <!-- Glow aura -->
+  <circle cx="60" cy="65" r="52" fill="url(#glow)"/>
+
+  <!-- Silo cap -->
+  <path d="M12 38 Q12 12 60 12 Q108 12 108 38Z" fill="url(#bodyGrad)" stroke="#C9A84C" stroke-width="1.8"/>
+
+  <!-- Top finial -->
+  <line x1="60" y1="12" x2="60" y2="4" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="3.5" r="3" fill="#C9A84C"/>
+
+  <!-- Main vault body -->
+  <rect x="12" y="36" width="96" height="72" rx="6" fill="url(#bodyGrad)" stroke="#C9A84C" stroke-width="1.8"/>
+
+  <!-- Vault door ring outer -->
+  <circle cx="60" cy="72" r="28" fill="#0B1120" stroke="#C9A84C" stroke-width="1.8"/>
+
+  <!-- Vault door ring inner -->
+  <circle cx="60" cy="72" r="20" fill="#0B1120" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+
+  <!-- Wheel spokes (8) -->
+  <g stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round">
+    <line x1="60" y1="44" x2="60" y2="50"/>
+    <line x1="60" y1="94" x2="60" y2="100"/>
+    <line x1="32" y1="72" x2="38" y2="72"/>
+    <line x1="82" y1="72" x2="88" y2="72"/>
+    <line x1="40.2" y1="52.2" x2="44.5" y2="56.5"/>
+    <line x1="75.5" y1="87.5" x2="79.8" y2="91.8"/>
+    <line x1="79.8" y1="52.2" x2="75.5" y2="56.5"/>
+    <line x1="44.5" y1="87.5" x2="40.2" y2="91.8"/>
+  </g>
+
+  <!-- Neural mind circle -->
+  <circle cx="60" cy="72" r="9" fill="rgba(201,168,76,0.15)" stroke="#C9A84C" stroke-width="1.2"/>
+
+  <!-- Neural connections -->
+  <g stroke="#C9A84C" stroke-width="0.9" opacity="0.7">
+    <line x1="55" y1="68" x2="60" y2="72"/>
+    <line x1="65" y1="68" x2="60" y2="72"/>
+    <line x1="60" y1="72" x2="57" y2="77"/>
+    <line x1="60" y1="72" x2="63" y2="77"/>
+  </g>
+
+  <!-- Neural nodes -->
+  <circle cx="55" cy="68" r="2.5" fill="#C9A84C"/>
+  <circle cx="65" cy="68" r="2.5" fill="#C9A84C"/>
+  <circle cx="57" cy="77" r="2.5" fill="#C9A84C"/>
+  <circle cx="63" cy="77" r="2.5" fill="#C9A84C"/>
+  <circle cx="60" cy="72" r="3.5" fill="#E8C96A"/>
+
+  <!-- Handle latch -->
+  <rect x="85" y="69" width="10" height="6" rx="3" fill="none" stroke="#C9A84C" stroke-width="1.5"/>
+</svg>
